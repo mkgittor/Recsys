@@ -17,45 +17,9 @@ Original file is located at
 
 import re
 import csv
-import codecs
 import numpy as np
 import pandas as pd
-
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-
-from torch.utils.data import DataLoader, TensorDataset
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import spacy
-
-from gensim.models import KeyedVectors
-
-
-import torch
-import torch.nn as nn
-from torch.autograd import Variable
-
-#import spacy
-#import torchtext
-#from torchtext import data
-#from torchtext.data import Field, BucketIterator, TabularDataset
-
-from sklearn.model_selection import train_test_split
-
-# from Batch import MyIterator, batch_size_fn
-# from Tokenize import tokenize
-
-import os
-
-#import numpy as np
-#import pandas as pd
-
-import math
 import copy
-
-#import torch.nn.functional as F
 import time
 
 """### Exploring dataset and reading into a dataframe"""
